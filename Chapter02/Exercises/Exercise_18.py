@@ -21,6 +21,7 @@ correlation_coeff, p_value = pearsonr(x, y)
 print(correlation_coeff)
 
 # Set up some logic
+# What the hell is this? ┻━┻︵ヽ(`Д´)ﾉ︵ ┻━┻ -goatPush
 if correlation_coeff == 1.00:
     title = 'There is a perfect positive linear relationship (r = {0:0.2f}).'.format(correlation_coeff)
 elif correlation_coeff >= 0.8:
